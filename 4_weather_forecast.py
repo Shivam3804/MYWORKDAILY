@@ -15,7 +15,6 @@ def on_click():
         var=requests.get(url, params={'key':key})
         # response
         results=var.json()
-        print(results)
         # farenheit to celcius
         C=(results['currentConditions']['temp']-32)*5/9
         temp.setText(f"{round(C,2)}")
