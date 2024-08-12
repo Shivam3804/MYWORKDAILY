@@ -13,7 +13,6 @@ def on_click():
         url=f"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{loca}/{date}?"
         key="2NNHMWSURZ95ACPMSLQNPJNF2"
         var=requests.get(url, params={'key':key})
-        print(var)
         # response
         results=var.json()
         print(results)
