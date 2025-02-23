@@ -7,3 +7,5 @@ This project is for internship in MyWorkDaily.com
 <br>
 <br>Task 4: Weather Forecast
 <br>Required Libraries/Modules: PyQt5, time, requests, json
+<br>Task 5: Quiz Game
+<br>Required Libraries/Modules: PyQt5, random, requests
